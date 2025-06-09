@@ -1,12 +1,11 @@
 body {
     background-color: #f0f8ff;
-    background-image: url("mojaslika.jpg"); /* zamijeni s pravim imenom slike */
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
 }
 
-/* Naslovi */
+
 h1 {
     color: darkblue;
     text-align: center;
@@ -19,7 +18,6 @@ h2 {
     font-size: 20px;
 }
 
-/* Navigacija */
 nav ul {
     list-style-type: none;
     background-color: rgba(51, 51, 51, 0.8); /* s prozirnošću */
@@ -54,7 +52,7 @@ nav ul li a:active {
     background-color: #222;
 }
 
-/* Odlomci */
+
 p {
     color: #333;
     line-height: 1.5;
@@ -64,15 +62,4 @@ p {
     border: 2px solid #ccc;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.7); /* svijetla pozadina s prozirnošću */
-}
-
-/* Primjer dodatnog elementa s određenom veličinom */
-.box {
-    width: 200px;
-    height: 100px;
-    background-color: red;
-    opacity: 0.5; /* 50% vidljivost */
-    margin: 20px auto;
-    border: 2px solid black;
-    border-radius: 5px;
 }
